@@ -1,3 +1,91 @@
 .hidden {
   display: none;
 }
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center; /* 새로축 */
+  justify-content: center; /* 가로축 */
+  flex-direction: column;
+  background-size: cover;
+}
+
+#weather {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+#clock {
+  color: aliceblue;
+  font-size: 100px;
+  margin: 0;
+}
+
+#greeting {
+  color: aliceblue;
+  font-size: 40px;
+}
+
+#login-form input:first-child {
+  border: none;
+  background-color: transparent;
+  width: 350px;
+  height: 70px;
+  font-size: 30px;
+  color: aliceblue;
+  border-bottom: solid 2px aliceblue;
+  text-align: center;
+}
+
+#login-form input:first-child::placeholder {
+  color: aliceblue;
+}
+
+/* #login-form input:nth-child(2) {
+  border: solid 2px aliceblue;
+  background-color: transparent;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  color: aliceblue;
+} */
+
+#todo-form input {
+  border: none;
+  background-color: transparent;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  color: aliceblue;
+  border-bottom: solid 2px aliceblue;
+  text-align: center;
+}
+
+#todo-form input::placeholder {
+  color: aliceblue;
+}
+
+#qoute {
+  position: absolute;
+  bottom: 5px;
+  color: aliceblue;
+  font-size: 20px;
+}
+ol {
+  width: 250px;
+}
+
+li {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+li button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+}

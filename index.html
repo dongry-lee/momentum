@@ -8,15 +8,20 @@
     <title>Momentum</title>
   </head>
   <body>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <h1 id="greeting" class="hidden"></h1>
     <h2 id="clock">00:00</h2>
     <form class="hidden" id="login-form">
       <input
         required
         maxlength="15"
         type="text"
-        placeholder="What is your name?"
+        placeholder="Type your name here"
       />
-      <input type="submit" value="Log in" />
+      <!-- <input type="submit" value="Log in" /> -->
     </form>
     <form id="todo-form">
       <input
@@ -25,13 +30,8 @@
         required
       />
     </form>
-    <ul id="todo-list"></ul>
-    <h1 id="greeting" class="hidden"></h1>
+    <ol id="todo-list"></ol>
     <div id="qoute">
-      <span></span>
-      <span></span>
-    </div>
-    <div id="weather">
       <span></span>
       <span></span>
     </div>
